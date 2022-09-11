@@ -11,10 +11,10 @@ module.exports = async function({getNamedAccounts,deployments}){
         from:deployer,
         args:[],
         log:true,
-        waitConfirmations:1
+        waitConfirmations:6
 
     })
-    log(`FundMe deployed at ${patientPass.address}`)
+    log(`patientPass deployed at ${patientPass.address}`)
     console.log('-------------------------------------')
 }
 
