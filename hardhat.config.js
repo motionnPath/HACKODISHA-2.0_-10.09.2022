@@ -19,7 +19,7 @@ module.exports = {
             chainId: 31337,
             // gasPrice: 130000000000,
         },
-        polygon: {
+        polygon_mumbai: {
           url:API_URL,
           accounts:[PRIVATE_KEY],
           ChainID: 80001,
